@@ -12,13 +12,11 @@ body{
     display: block;
     width: 100%;
     left: 0;
-    transition: .6s ease-in-out;
 }
 .title:hover::after{
     display: block;
     width: 100%;
     right: 0;
-    transition: .6s ease-in-out;
 }
 
 .title::before{
@@ -29,6 +27,8 @@ body{
     position: absolute;
     background-color: rgb(254, 1, 1);
     left: -110%;
+    transition: .6s ease-in-out;
+
 }
 
 .title::after{
@@ -39,4 +39,6 @@ body{
     position: absolute;
     right: 0;
     background-color: rgb(252, 0, 0);
+    transition: .6s ease-in-out;
+
 }
